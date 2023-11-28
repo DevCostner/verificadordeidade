@@ -1,15 +1,10 @@
-:root {
-  --text-color: rgb(218, 218, 8);
-  --bg-color: rgb(3, 3, 49);
-  --hightlight-color: rgba(255, 255, 255, 0.1);
-}
 body {
-  background: var(--bg-color);
+  background: rgb(3, 3, 49);
   font: normal 15pt arial;
 }
 
 header {
-  color: var(--text-color);
+  color: rgb(218, 218, 8);
   text-align: center;
 }
 
@@ -28,11 +23,11 @@ div {
 }
 
 footer {
-  color: var(--text-color);
+  color: rgb(218, 218, 8);
   text-align: center;
   font-style: italic;
 }
 
 #link{
-  color: var(--text-color);
+  color: rgb(218, 218, 8);
 }
