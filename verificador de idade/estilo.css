@@ -1,0 +1,38 @@
+:root {
+  --text-color: rgb(218, 218, 8);
+  --bg-color: rgb(3, 3, 49);
+  --hightlight-color: rgba(255, 255, 255, 0.1);
+}
+body {
+  background: var(--bg-color);
+  font: normal 15pt arial;
+}
+
+header {
+  color: var(--text-color);
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+
+footer {
+  color: var(--text-color);
+  text-align: center;
+  font-style: italic;
+}
+
+#link{
+  color: var(--text-color);
+}
